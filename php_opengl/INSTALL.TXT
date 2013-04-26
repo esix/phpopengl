@@ -47,3 +47,19 @@ a directory where PHP can find it.
 
 You'll also need GLUT for Windows available from
 http://www.xmission.com/~nate/glut.html .
+
+
+
+
+
+TROUBLESHOUTING on Ubuntu (shared build):
+
+phpize from package php5-dev
+for building glut you must have freeglut3-dev package
+
+sudo apt-get install freeglut3 freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev mesa-common-dev
+
+
+Find configuration file (php.ini):
+#echo \<?php phpinfo\(\)\; \ ?\> | php | grep "Configuration File"
+
