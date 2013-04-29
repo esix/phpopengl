@@ -52,7 +52,7 @@ http://www.xmission.com/~nate/glut.html .
 
 
 
-TROUBLESHOUTING on Ubuntu (shared build):
+TROUBLESHOOTING on Ubuntu (shared build):
 
 phpize from package php5-dev
 for building glut you must have freeglut3-dev package
